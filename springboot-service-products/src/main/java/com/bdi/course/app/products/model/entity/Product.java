@@ -11,6 +11,7 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.persistence.Transient;
+import org.hibernate.annotations.CreationTimestamp;
 
 @Entity
 @Table(name = "products")
@@ -23,10 +24,11 @@ public class Product implements Serializable {
     @Column(name = "id", nullable = false)
     private Long id;
     private String name;
-
     private Double price;
+
     @Column(name = "created_at")
     @Temporal(TemporalType.TIMESTAMP)
+    @CreationTimestamp
     private Date createdAt;
 
     @Transient
