@@ -1,5 +1,7 @@
 package com.bdi.course.app.items.model.dto;
 
+import com.bdi.course.app.commons.models.entity.Product;
+
 public class Item {
 
     private Product product;

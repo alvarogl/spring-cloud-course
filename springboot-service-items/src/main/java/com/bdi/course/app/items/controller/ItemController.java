@@ -1,7 +1,7 @@
 package com.bdi.course.app.items.controller;
 
+import com.bdi.course.app.commons.models.entity.Product;
 import com.bdi.course.app.items.model.dto.Item;
-import com.bdi.course.app.items.model.dto.Product;
 import com.bdi.course.app.items.model.service.ItemService;
 import java.util.HashMap;
 import java.util.List;
@@ -70,6 +70,5 @@ public class ItemController {
             configMap.put("author.email", env.getProperty("config.author.email"));
         }
         return new ResponseEntity<>(configMap, HttpStatus.OK);
-
     }
 }

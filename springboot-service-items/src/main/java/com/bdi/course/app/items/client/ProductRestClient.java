@@ -1,6 +1,6 @@
 package com.bdi.course.app.items.client;
 
-import com.bdi.course.app.items.model.dto.Product;
+import com.bdi.course.app.commons.models.entity.Product;
 import java.util.List;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

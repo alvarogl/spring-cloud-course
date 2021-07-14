@@ -1,7 +1,7 @@
 package com.bdi.course.app.products.controller;
 
+import com.bdi.course.app.commons.models.entity.Product;
 import com.bdi.course.app.products.exception.ProductNotFoundException;
-import com.bdi.course.app.products.model.entity.Product;
 import com.bdi.course.app.products.model.service.ProductService;
 import java.util.List;
 import java.util.stream.Collectors;

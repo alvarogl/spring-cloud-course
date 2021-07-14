@@ -1,6 +1,6 @@
 package com.bdi.course.app.products.model.service;
 
-import com.bdi.course.app.products.model.entity.Product;
+import com.bdi.course.app.commons.models.entity.Product;
 import java.util.List;
 
 public interface ProductService {
